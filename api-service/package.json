@@ -7,12 +7,12 @@
     "test": "test"
   },
   "scripts": {
-  "build": "tsc",
-  "start": "node dist/index.js",
-  "dev": "nodemon src/index.ts",
-  "lint": "eslint src/**/*.ts",
-  "lint:fix": "eslint src/**/*.ts--fix",
-  "test": "echo \"Tests will be integrated in Day 2\" ^& exit 0"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts--fix",
+    "test": "echo \"Tests will be integrated in Day 2\" ^& exit 0"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +25,9 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.6",
-    "@typescript-eslint/eslint-plugin": "^8.72.1",
-    "@typescript-eslint/parser": "^8.72.1",
-    "eslint": "^10.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
